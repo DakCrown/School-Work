@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Dakota Crownover Portfolio</title>
+<meta charset="utf-8">
+<link href="styles.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+  <header>
+    <h1><a href="index.html">Dakota Crownover</a></h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a> &nbsp; &nbsp; &nbsp;
+    <a href="about_me.html">About Me</a> &nbsp; &nbsp; &nbsp;
+    <a href="project_links.html">Projects</a> &nbsp; &nbsp; &nbsp;
+    <a href="contact.html">Contact</a> &nbsp; &nbsp; &nbsp;
+  </nav>
+  <div id="wrapper"></div>
+  <div id="homehero"></div>
+  <main>
+    <h2>Contact me</h2>
+    <h3>Fill out the form below to contact me.</h3>
+    <div class="form-container">
+      <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+      
+        <label for="myName">Name:</label>
+        <input type="text" id="myName" name="myName" required>
+        <br>
+        <label for="myEmail">E-mail:</label>
+        <input type="text" id="myEmail" name="myEmail" required>
+        <br>
+        <label for="myReason">Reason for Contact:</label>
+        <input list="reasons" id="myreasons" name="myReason">
+        <datalist id="reasons">
+          <option value="Job Offer"></option>
+          <option value="Consultant Services"></option>
+          <option value="Book a Meeting"></option>
+          <option value="Other"></option>
+        </datalist>
+        <br>
+        <label for="myComments">Comments:</label>
+        <textarea id="myComments" name="myComments" rows="2" cols="20" for="myComments required">
+        </textarea>
+        <br>
+        <input type="submit" id="mySubmit" value="Send Now">
+      </form>
+    </div>
+  </main>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer>
+    Dakota Crownover, 2024 <br>
+    <a href="mailto:crownoverd@my.westmoreland.edu">crownoverd@my.westmoreland.edu</a>
+  </footer>
+
+</body>
+</html>
